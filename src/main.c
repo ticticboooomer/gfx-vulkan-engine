@@ -1,1 +1,6 @@
-int main(int argc, const char **argv) { return 0; }
+#include <stdio.h>
+#include <vulkan/vulkan.h>
+
+int main(int argc, const char **argv) {
+    
+}

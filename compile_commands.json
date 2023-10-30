@@ -1,0 +1,20 @@
+[
+{
+  "directory": "A:/gfx/vulkan_c_mhm/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo -external:IC:\\VulkanSDK\\1.3.261.1\\Include -external:W0 /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c17 -MDd -Zi /FoCMakeFiles\\Potentia.dir\\src\\main.c.obj /FdTARGET_COMPILE_PDB /FS -c A:\\gfx\\vulkan_c_mhm\\src\\main.c",
+  "file": "A:\\gfx\\vulkan_c_mhm\\src\\main.c",
+  "output": "CMakeFiles\\Potentia.dir\\src\\main.c.obj"
+},
+{
+  "directory": "A:/gfx/vulkan_c_mhm/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo -external:IC:\\VulkanSDK\\1.3.261.1\\Include -external:W0 /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c17 -MDd -Zi /FoCMakeFiles\\Potentia.dir\\src\\engine\\structure.c.obj /FdTARGET_COMPILE_PDB /FS -c A:\\gfx\\vulkan_c_mhm\\src\\engine\\structure.c",
+  "file": "A:\\gfx\\vulkan_c_mhm\\src\\engine\\structure.c",
+  "output": "CMakeFiles\\Potentia.dir\\src\\engine\\structure.c.obj"
+},
+{
+  "directory": "A:/gfx/vulkan_c_mhm/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo -external:IC:\\VulkanSDK\\1.3.261.1\\Include -external:W0 /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c17 -MDd -Zi /FoCMakeFiles\\Potentia.dir\\src\\engine\\config.c.obj /FdTARGET_COMPILE_PDB /FS -c A:\\gfx\\vulkan_c_mhm\\src\\engine\\config.c",
+  "file": "A:\\gfx\\vulkan_c_mhm\\src\\engine\\config.c",
+  "output": "CMakeFiles\\Potentia.dir\\src\\engine\\config.c.obj"
+}
+]
