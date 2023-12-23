@@ -14,7 +14,6 @@ typedef struct {
 } file_str_t;
 
 inline file_str_t read_file(const char* fname) {
-  printf("%s reading this file", fname);
   FILE* fd = fopen(fname, "rb");
   fseek(fd, 0, SEEK_END);
   const size_t sz = ftell(fd);

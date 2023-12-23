@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.26)
 set(CMAKE_C_STANDARD 23)
 project(Potentia VERSION 0.0.1.0)
 set(NDEBUG ON)
-set(SOURCE_FILES "src/main.c" "src/backend/gpu.c")
+set(SOURCE_FILES "src/main.c" "src/backend/gpu.c" "src/backend/window.c" "src/backend/pipeline.c")
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 

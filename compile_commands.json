@@ -13,6 +13,12 @@
 },
 {
   "directory": "A:/gfx/vulkan_c_mhm/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -IA:\\gfx\\vulkan_c_mhm\\include -IA:\\gfx\\vulkan_c_mhm\\glfw\\include -external:IC:\\VulkanSDK\\1.3.261.1\\Include -external:W0 /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c17 -MDd -Zi /FoCMakeFiles\\Potentia.dir\\src\\backend\\window.c.obj /FdTARGET_COMPILE_PDB /FS -c A:\\gfx\\vulkan_c_mhm\\src\\backend\\window.c",
+  "file": "A:\\gfx\\vulkan_c_mhm\\src\\backend\\window.c",
+  "output": "CMakeFiles\\Potentia.dir\\src\\backend\\window.c.obj"
+},
+{
+  "directory": "A:/gfx/vulkan_c_mhm/build",
   "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IA:\\gfx\\vulkan_c_mhm\\glfw\\include -IA:\\gfx\\vulkan_c_mhm\\glfw\\src -IA:\\gfx\\vulkan_c_mhm\\build\\glfw\\src /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi /W3 /Foglfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj /FdTARGET_COMPILE_PDB /FS -c A:\\gfx\\vulkan_c_mhm\\glfw\\src\\context.c",
   "file": "A:\\gfx\\vulkan_c_mhm\\glfw\\src\\context.c",
   "output": "glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj"
