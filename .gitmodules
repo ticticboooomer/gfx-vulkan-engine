@@ -4,3 +4,6 @@
 [submodule "3rdparty/cglm"]
 	path = 3rdparty/cglm
 	url = https://github.com/recp/cglm.git
+[submodule "3rdparty/assimp"]
+	path = 3rdparty/assimp
+	url = https://github.com/assimp/assimp.git
