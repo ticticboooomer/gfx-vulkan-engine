@@ -1,3 +1,6 @@
+#ifndef BACKEND_GPU_H
+#define BACKEND_GPU_H
+
 #include <stdint.h>
 #include <vulkan/vulkan_core.h>
 
@@ -10,3 +13,5 @@ VkExtent2D gpu_get_swapchain_extent();
 VkFormat gpu_get_swapchain_format();
 VkRenderPass gpu_get_render_pass();
 void gpu_destroy_vk();
+
+#endif

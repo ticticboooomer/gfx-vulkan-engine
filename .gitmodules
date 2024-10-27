@@ -1,3 +1,6 @@
-[submodule "glfw"]
-	path = glfw
+[submodule "3rdparty/glfw"]
+	path = 3rdparty/glfw
 	url = https://github.com/glfw/glfw.git
+[submodule "3rdparty/cglm"]
+	path = 3rdparty/cglm
+	url = https://github.com/recp/cglm.git

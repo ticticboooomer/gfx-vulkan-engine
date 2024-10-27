@@ -62,6 +62,8 @@ void _init_vk_graphics_pipeline(pipeline_def_t* def) {
   dyn_states_create_info.pNext = 0;
   dyn_states_create_info.flags = 0;
 
+
+
   VkPipelineVertexInputStateCreateInfo vtx_input_create_info;
   vtx_input_create_info.sType =
       VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO;
@@ -201,6 +203,9 @@ void _init_vk_graphics_pipeline(pipeline_def_t* def) {
   }
 }
 
+void create_command_pool() {
+
+}
 
 pipeline_def_t create_graphics_pipeline() {
   pipeline_def_t def;

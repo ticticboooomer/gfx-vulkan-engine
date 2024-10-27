@@ -3,7 +3,6 @@
 #include "backend/pipeline.h"
 #include "backend/window.h"
 
-
 int main(int argc, const char **argv) {
   window_preset_resolution(1000, 800);
   window_set_title("sosig game");
