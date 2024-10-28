@@ -9,6 +9,8 @@ add_subdirectory(3rdparty)
 # Engine & Libs
 add_subdirectory(lib)
 
+#Samples
+add_subdirectory(samples)
 # Tools
 add_subdirectory(tools)
 

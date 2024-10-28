@@ -1,4 +1,4 @@
-#include "error.h"
+#include "engine/error.h"
 
 void ptia_panic(const char* msg) {
     printf("%s", msg);

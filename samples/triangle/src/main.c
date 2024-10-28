@@ -1,7 +1,8 @@
-#include <vulkan/vulkan.h>
-#include "backend/gpu.h"
-#include "backend/pipeline.h"
-#include "backend/window.h"
+#include <stdio.h>
+
+#include "engine/backend/gpu.h"
+#include "engine/backend/pipeline.h"
+#include "engine/backend/window.h"
 
 int main(int argc, const char **argv) {
   window_preset_resolution(1000, 800);
