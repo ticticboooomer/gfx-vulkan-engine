@@ -11,6 +11,8 @@ typedef struct {
     uint32_t *indices;
 } mesh_t;
 
+static mesh_t* mesh;
+
 int mesh_load(const char *filename, long *handle) {
     const struct aiScene *scene = aiImportFile(filename, aiProcess_Triangulate);
     if (!scene) {
