@@ -18,7 +18,7 @@ static u64 meshes_count = 0;
 static u64 meshes_capacity = ARRAY_START_LEN;
 static mesh_t *meshes = malloc(ARRAY_START_LEN * sizeof(mesh_t));
 
-int mesh_load(const char *filename, long *handle) {
+int mesh_load(const char *filename, handle_t *handle) {
     const struct aiScene *scene = aiImportFile(filename, aiProcess_Triangulate);
     if (!scene) {
         aiReleaseImport(scene);
@@ -55,20 +55,23 @@ int mesh_load(const char *filename, long *handle) {
     }
 
     meshes_count++;
-    ensure_capacity_overalloc(&meshes, &meshes_capacity, meshes_count, sizeof(mesh_t));
+    ensure_capacity_overalloc((void**)&meshes, &meshes_capacity, meshes_count, sizeof(mesh_t));
 
-    mesh_t out_mesh = {
+    const mesh_t out_mesh = {
         .vertices = vertices,
         .indices = indices
     };
 
     meshes[meshes_count] = out_mesh;
 
+    *handle = handle_create(meshes_count - 1);
+
     aiReleaseImport(scene);
     return 0;
 }
 
-int mesh_save(const char *filename, long handle) {
+void mesh_save(const char *filename, handle_t *handle) {
+
 }
 
 void cleanup() {
