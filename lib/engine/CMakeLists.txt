@@ -13,5 +13,6 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${Vulkan_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} Vulkan::Vulkan)
 
 target_link_libraries(${PROJECT_NAME} cglm glfw)
+target_link_libraries(${PROJECT_NAME} PotentiaCore)
 
 target_include_directories(${PROJECT_NAME} PUBLIC include)
