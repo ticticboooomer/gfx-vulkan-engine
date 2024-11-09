@@ -3,6 +3,7 @@ project(PotentiaCore VERSION  0.0.1.0)
 set(SOURCE_FILES
         src/handle.c
         src/arrays.c
+        src/bitwise.c
 )
 
 add_library(${PROJECT_NAME} ${SOURCE_FILES})
